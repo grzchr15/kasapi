@@ -1,0 +1,12 @@
+AddDefaultCharset OFF
+
+php_flag magic_quotes_gpc on
+php_flag register_globals off
+
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^(.*)wget%20 [OR]
+RewriteCond %{QUERY_STRING} ^(.*)fetch%20 [OR]
+RewriteCond %{QUERY_STRING} ^(.*)=ftp://(.*) [OR]
+RewriteCond %{QUERY_STRING}   (.*)=http(.*)   [NC,OR]
+RewriteCond %{QUERY_STRING}   (.*)urlx=(.*)   [NC]
+RewriteRule ^(.*)  - [F]

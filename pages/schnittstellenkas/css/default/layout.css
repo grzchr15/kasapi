@@ -1,0 +1,183 @@
+html { 
+	height: 100%;
+}
+
+body {
+	height: 98%;
+	position: absolute; top: 0; bottom: 0; left:0; right:0;
+	margin: 0px;
+	font-size: 12px;
+	font-family: Verdana;
+	color: #333333;  
+	background-color: #F3F3F3;
+}
+
+h1 {
+	margin: 10px;
+}
+
+h4 {
+	text-align:right;
+	font-size: 10px;
+	margin: 0px 10px;
+}
+
+table#screen {
+	width:100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+div#sessiondauer {
+	color: #999999;
+	position: relative;
+	font-size: 9px;
+	left: 630px;
+	top: 10px;
+}
+
+div#sessiondauer input {
+	text-align: center;
+	font-size: 9px;
+	border: 0px;
+	background-color: #FFFFFF;
+	color: #999999;
+}
+
+div#content {
+	position: relative;
+	width: 807px;
+	height: 607px;
+	padding: 5px;
+	border: 2px solid #333333;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	z-index: 0;
+}
+
+div#head, div#menue, div#main {
+	position: relative;
+	border: 1px solid #333333;
+	margin: 3px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	text-align: left;
+	z-index: 0;
+}
+
+div#head {
+	width: 800px;
+	height: 80px;
+	background-color: #FFFFFF;
+}
+
+div#menue {
+	width: 160px;
+	height: 500px;
+	background-color: #FFFFFF;
+	float:left;
+	padding: 5px;
+}
+
+
+div#menue a, a:visited {
+	text-decoration: none;
+	color: #333333;  
+	font-weight: bold;
+}
+
+div#menue a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+	color: #FF0000;
+}
+
+div#main {
+	width: 611px;
+	height: 500px;
+	padding: 5px;
+	text-align: left;
+	float:left;
+	background-color: #F8F8F8;
+	overflow:auto;
+}
+
+div#main a, a:visited{
+	text-decoration: none;
+	color: #003399;  
+	font-weight: bold;
+}
+
+div#main a:hover{
+	text-decoration: underline;
+	color: #FF0000;  
+	font-weight: bold;
+}
+
+div#clearer {
+	clear: left;
+}
+
+div#error, div#success {
+	position: relative;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+	padding:5px;
+	-moz-opacity: 0.80;
+	opacity:  0.80;
+	filter:alpha(opacity=80);
+	z-index: 10;
+}
+
+div#error {
+	color: #FF0000;
+	border: 1px solid #FF0000;
+	background-color: #FFCCCC;
+}
+
+div#success {
+	color: #006600;
+	border: 1px solid #006600;
+	background-color: #00FF66;
+}
+
+table {
+	border: none;
+	width: 100%;
+}
+
+td#commet {
+	font-size: 10px;
+	color: #999999;
+}
+
+td#headline {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	padding: 5px;
+	width: auto;
+	text-align: left;
+}
+
+td#button {
+	text-align:center;
+	vertical-align:middle;
+	height:80px;
+}
+
+tr#daten:hover {
+	background-color: #EEEEEE;
+}
+
+td#uebersicht_werte {
+	text-align:center;
+}
+
+td#zwischenzeile {
+	height: 5px;
+}
